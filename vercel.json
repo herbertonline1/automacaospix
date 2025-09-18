@@ -1,0 +1,16 @@
+    {
+      "version": 2,
+      "builds": [
+        {
+          "src": "automacao_unidades.py",
+          "use": "@vercel/python"
+        }
+      ],
+      "routes": [
+        {
+          "src": "/(.*)",
+          "dest": "automacao_unidades.py"
+        }
+      ]
+    }
+    
